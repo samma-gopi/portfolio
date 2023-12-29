@@ -1,0 +1,341 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	
+
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">Portfolio</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#Skills"> 
+							Skills 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#Projects"> 
+							Projects 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero">	
+		<div class="intro"> 
+			
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 id="myname">Samma Gopi </h1> 
+				<h4 class="sub-heading"> 
+					Web Developer
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				
+				
+				<!-- <button class="btn ghost-btn" href="resume.pdf" download >My Resume </button> -->
+				<a class="btn ghost-btn" id="myres" href="resume.pdf" download>My Resume</a>
+  
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Skills Section -->
+	<section class="Skills" id="Skills"> 
+		
+		<div class="Skills-heading"> 
+			<h1 class="my-heading text-center"> Skills</h1>  
+		</div> 
+		<div class="Skills-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/webdesign.jpeg"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Web Design</h3> 
+						<p class="small-para blue-text">Designing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/frontend.jpg"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Frontend Development
+						</h3> 
+						<p class="small-para blue-text">Development</p>    
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/github.jpeg" alt="git Image">  
+						</div>  
+						<h3 class="greet-heading blue-text">Git</h3> 
+						<p class="small-para blue-text">GitHub</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/react.png"
+								alt="react Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							React
+						</h3> 
+						<p class="small-para blue-text">React Dev</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/java.png"
+								alt="Wordpress Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Java
+						</h3> 
+						<p class="small-para blue-text"> 
+							Data Stucture and algorithms 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/stockmarket.jpg"
+								alt="stockmarket Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Stock market
+						</h3> 
+						<p class="small-para blue-text">Technical and Fundamental analysis</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		
+		<div class="about-text"> 
+			
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				Highly skilled Computer Science Engineer with a robust
+                background in software development. Demonstrated
+                proficiency in the JAVA programming language and
+                MERN stack development. Seeking to channel my
+                technical acumen and adept problem-solving abilities
+                towards impactful contributions to cutting-edge 
+                technology endeavors.
+			</p> 
+			<p> 
+				Education<br><br>
+
+                Engineering -> Vellore Institute of Technology (VIT)
+                Integrated MTECH - Computer Science | 2020-2025<br>
+                
+                Intermediate -> Sri Chaitanya Junior College |2018-2020
+                
+                Schooling -> St.Martins High School   &nbsp|2018
+              
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="./Images/me.jpg" alt="me Image"> 
+		</div> 
+	</section> 
+
+	<!-- Projects Section -->
+	<section class="Projects" id="Projects"> 
+		<div class="Projects-heading"> 
+			<h1 class="my-heading text-center"> My Projects</h1>  
+		</div> 
+		<div class="Skills-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/valscojurident.jpg"
+								alt="valscojudrident"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Jurident</h3> 
+						<p class="small-para blue-text"></p>  App provides diverse legal services, connecting users with experienced lawyers in family, criminal, business law, and more for specific needs.
+
+                        <button class="btn common-btn"   id="githubButton"href="https://github.com/samma-gopi/Jurident-Website">Github</button>  
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/elegantcrafted.png"
+								alt="elegantcrafted Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							elegant crafted 
+						</h3> 
+						<p class="small-para blue-text">E-commerce website  offering diverse products,online buying,  user-friendly interfaces,  enhancing shopping convenience globally. </p>
+                        
+                        <button class="btn common-btn"   id="githubButtonElegant"  href="https://github.com/samma-gopi/Elegance-Crafted-Ecommerce">Github</button> 
+					</div> 
+				 
+					
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+        <div class="social-links"> 
+            <div class="footer-menu"> 
+                <ul class="footer-menu-list"> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="https://www.facebook.com/sammagopi.kamadula/"> 
+                            <i class="fab fa-facebook-f"></i> 
+                        </a> 
+                    </li> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="https://twitter.com/samma_gopi"> 
+                            <i class="fab fa-twitter"></i> 
+                        </a> 
+                    </li> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="https://www.instagram.com/sammagopi/"> 
+                            <i class="fab fa-instagram"></i> 
+                        </a> 
+                    </li> 
+                    <li class="footer-list-items"> 
+                        <a class="footer-links" href="https://www.linkedin.com/in/kamadula-sammagopi-1a359b1b8/"> 
+                            <i class="fab fa-linkedin-in"></i> 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </div> 
+		<div class="contact-content"> 
+			<div class="contact-details"> 
+			  <h1 class="greet-heading">My Contact Details</h1> 
+			  <div class="details"> 
+				<h5 class="contact-heading"><i class="fas fa-envelope"></i> EMAIL:</h5> 
+				<p class="contact-text">ksammagopi@gmail.com</p> 
+			  </div> 
+			  <div class="details"> 
+				<h5 class="contact-heading"><i class="fas fa-phone"></i> PHONE:</h5> 
+				<p class="contact-text">+91 9542367549</p> 
+			  </div>  
+			  <div class="details"> 
+				<h5 class="contact-heading"><i class="fas fa-map-marker-alt"></i> ADDRESS:</h5> 
+				<p class="contact-text">India, Hyderabad</p> 
+				<p>H.NO 7-65/2/er</p> 
+			  </div> 
+			</div> 
+		  </div>
+		  
+	</section> 
+ 
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				© SAMMAGOPI.ALL RIGHTS RESERVED. 
+			</h4> 
+			
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script>  
+
+	<!-- github link for jurident and elegant under project -->
+	<script>
+		// JavaScript code to handle button click and redirect to the specified link
+		document.getElementById('githubButton').addEventListener('click', function() {
+		  // Specify the GitHub link
+		  var githubLink = 'https://github.com/samma-gopi/Jurident-Website';
+	  
+		  // Open the link in a new tab
+		  window.open(githubLink, '_blank');
+		});
+	  </script>
+	  <script>
+		document.getElementById('githubButtonElegant').addEventListener('click', function() {
+		  var githubLink = 'https://github.com/samma-gopi/Elegance-Crafted-Ecommerce';
+		  window.open(githubLink, '_blank');
+		});
+	  </script>
+	  
+
+</body> 
+
+</html>
+
+<!-- <video autoplay loop muted plays-inline class="back-video">
+	<source src="backgroundvideo.mp4" type="video/mp4">  
+
+</video >  -->
