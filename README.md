@@ -1,4 +1,5 @@
 # portfolio
-Languages used- HTML,CSS,JS,BOOTSTRAP
-Sectons- about,contcat,skills, project
-resume link provided to download 
+Languages used- HTML,CSS,JS,BOOTSTRAP <br>
+
+Sectons- about,contcat,skills, project<br>
+resume link provided to download <b>
