@@ -1,2 +1,4 @@
 # portfolio
-This is my personal portfolio, made with html,css,js,bootstrap
+Languages used- HTML,CSS,JS,BOOTSTRAP
+Sectons- about,contcat,skills, project
+resume link provided to download 
